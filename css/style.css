@@ -2,9 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container-wrapper{
 
-}
 
 .container-wrapper--red{
     background-color: #f05f40;
@@ -26,19 +24,20 @@ body {
 
 .callout-container{
     height: 100vh;
-
     background: url("../images/whiskey-background.jpg") no-repeat bottom right fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 
 }
+
+
 
 .opaque-overlay{
     position: absolute;
@@ -47,18 +46,6 @@ body {
     height: 100%;
     width: 100%;
     background-color: rgba(0,0,0,0.5);
-}
-
-
-
-.quotes-container{
-
-
-}
-
-features-container{
-
-
 }
 
 .page-header{
@@ -168,7 +155,8 @@ text-align: center;
 .btn--red:hover,
 .btn--red:active,
 .btn--red:focus,
-.btn--red:active:focus { 
+.btn--red:active-focus
+{ 
     background-color: #d42608;
     border-color: #d42608;
     color: white;
